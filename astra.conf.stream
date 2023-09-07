@@ -1,0 +1,28 @@
+{
+	"settings": {
+		"event_request": "http://a.b.c.d/events.php#interval=10&total=1"
+	},
+	"users": {
+		"admin": {
+			"type": 1,
+			"created": 1639308379,
+			"cipher": "3fed7a346e430ea4c2aa10250928f4de",
+			"enable": true
+		}
+	},
+	"make_stream": [
+		{
+			"output": [
+				"udp://239.1.2.4:30000"
+			],
+			"name": "test",
+			"id": "a02s",
+			"type": "spts",
+			"enable": true,
+			"input": [
+				"udp://239.1.2.5:30000"
+			]
+		}
+	],
+	"gid": 466560
+}

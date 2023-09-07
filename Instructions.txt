@@ -1,0 +1,11 @@
+How to install Astra 5.64 offline cracked
+
+Manual installation
+1. Upload the "ast" folder to your server / (e.g. /ast)
+2. Set permissions chmod -R 755 /ast
+4. Change folder cd /ast
+5. Start the script: ./loader -c,/ast/astra.conf.stream,-p,9091,--license,/ast/license.txt,--debug,--no-stdout
+
+Login to the GUI: http://yourserverip:9091/
+User: admin
+Pass: admin
